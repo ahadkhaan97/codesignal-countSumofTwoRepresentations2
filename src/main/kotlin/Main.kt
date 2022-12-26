@@ -1,5 +1,5 @@
 fun main() {
-    print(solution(93, 24, 58))
+    print(solution(1000000, 490000, 900000))
 }
 
 @Suppress("NAME_SHADOWING")
@@ -16,6 +16,7 @@ fun solution(n: Int, l: Int, r: Int): Int {
 
         if (l + r >= n) {
             r--
+            continue
         }
         l++
     }
